@@ -1,0 +1,19 @@
+:root {
+  --background-color: #241627;
+  --btn--color: white;
+  --btn--text: #241627;
+  --project-card-bg: #ffffff00;
+  --text-color: #fef507;
+  --form-text-color: #555;
+  --footer-test-color: #888;
+}
+
+[data-theme="light"] {
+  --background-color: #241627;
+  --btn--color: white;
+  --btn--text: #241627;
+  --project-card-bg: #ffffff00;
+  --text-color: #fef507;
+  --form-text-color: #555;
+  --footer-test-color: #888;
+}

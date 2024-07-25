@@ -45,6 +45,16 @@ function Hero() {
               Button 53
             </button>
           </a>
+          <a href="#" className="button nav-link">
+            <div className="bottom"></div>
+            <div className="top">
+              <div className="label">Resume</div>
+              <div className="button-border button-border-left"></div>
+              <div className="button-border button-border-top"></div>
+              <div className="button-border button-border-right"></div>
+              <div className="button-border button-border-bottom"></div>
+            </div>
+          </a>
         </div>
       </div>
     </section>

@@ -1,8 +1,15 @@
 import styles from "./SkillsStyles.module.css";
 import checkMarkIconDark from "../../assets/checkmark-dark.svg";
 import checkMarkIconLight from "../../assets/checkmark-light.svg";
-import SkillList from "../../common/SkillList";
+import html from "../../assets/html5-plain.svg";
+import css from "../../assets/css3-original.svg";
 import { useTheme } from "../../common/ThemeContext";
+import javascript from "../../assets/javascript-original.svg";
+import SkillList from "../../common/SkillList";
+import typescript from "../../assets/typescript-original.svg";
+import node from "../../assets/nodejs-original.svg";
+import react from "../../assets/react-original.svg";
+import angular from "../../assets/angularjs-original.svg";
 
 function Skills() {
   const { theme } = useTheme();
@@ -13,16 +20,16 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="HTML" />
-        <SkillList src={checkMarkIcon} skill="CSS" />
-        <SkillList src={checkMarkIcon} skill="JavaScript" />
-        <SkillList src={checkMarkIcon} skill="TypeScript" />
-        <SkillList src={checkMarkIcon} skill="Node" />
+        <SkillList src={html} skill="HTML" />
+        <SkillList src={css} skill="CSS" />
+        <SkillList src={javascript} skill="JavaScript" />
+        <SkillList src={typescript} skill="TypeScript" />
+        <SkillList src={node} skill="Node" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="React" />
-        <SkillList src={checkMarkIcon} skill="Angular" />
+        <SkillList src={react} skill="React" />
+        <SkillList src={angular} skill="Angular" />
         <SkillList src={checkMarkIcon} skill="Vue" />
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
       </div>

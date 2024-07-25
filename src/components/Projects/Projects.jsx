@@ -12,27 +12,15 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/tinglytingly"
-          h3="Viberr"
-          p="Streaming App"
+          link="tingly.codes"
+          h3="tingly.codes"
+          p="This very site"
         />
         <ProjectCard
           src={viberr}
-          link="https://github.com/tinglytingly"
-          h3="Viberr"
-          p="Streaming App"
-        />
-        <ProjectCard
-          src={viberr}
-          link="https://github.com/tinglytingly"
-          h3="Viberr"
-          p="Streaming App"
-        />
-        <ProjectCard
-          src={viberr}
-          link="https://github.com/tinglytingly"
-          h3="Viberr"
-          p="Streaming App"
+          link=""
+          h3="Product Landing Page"
+          p="Coming Soon"
         />
       </div>
     </section>

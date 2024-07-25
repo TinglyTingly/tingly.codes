@@ -10,16 +10,16 @@ import { useTheme } from "../../common/ThemeContext";
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
-  const themeIcon = theme === "light" ? moon : sun;
-  const githubIcon = theme === "light" ? githubDark : githubLight;
+  const themeIcon = theme === "light" ? sun : moon;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
 
   return (
-    <section id="hero">
+    <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="AI Generated Avatar of Tingly"
         />
         <img
           className={styles.colorMode}

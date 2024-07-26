@@ -85,14 +85,14 @@
 }
 .colorModeContainer {
   position: relative;
-}
-.colorMode {
-  position: absolute;
-  right: 0;
-  width: 25px;
-}
-.colorMode:hover {
-  cursor: pointer;
+  .colorMode {
+    position: absolute;
+    right: 0;
+    width: 25px;
+  }
+  .colorMode:hover {
+    cursor: pointer;
+  }
 }
 
 @media (width >= 800px) {
@@ -103,6 +103,7 @@
     .hero {
       max-width: 350px;
       width: 350px;
+      margin-top: 50px;
     }
   }
 }

@@ -14,7 +14,8 @@ import webpack from "../../assets/webpack-original.svg";
 import git from "../../assets/git-original.svg";
 import jest from "../../assets/jest-plain.svg";
 import bootstrap from "../../assets/bootstrap-original.svg";
-// import puppeteer from "../../assets/puppeteer-plain.svg";
+import puppeteer from "../../assets/puppeteer-original.svg";
+import vite from "../../assets/vitejs-original.svg";
 
 function Skills() {
   return (
@@ -33,6 +34,7 @@ function Skills() {
         <SkillList src={angular} skill="Angular" />
         <SkillList src={vue} skill="Vue" />
         <SkillList src={tailwindcss} skill="Tailwind CSS" />
+        <SkillList src={vite} skill="Vite" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -41,6 +43,7 @@ function Skills() {
         <SkillList src={git} skill="Git" />
         <SkillList src={jest} skill="Jest" />
         <SkillList src={bootstrap} skill="Bootstrap" />
+        <SkillList src={puppeteer} skill="Puppeteer" />
       </div>
     </section>
   );

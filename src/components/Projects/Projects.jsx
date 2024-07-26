@@ -1,7 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/checkmark-dark.svg";
+import tinglyAvatar from "../../assets/tinglyAvatar1.png";
 import ProjectCard from "../../common/ProjectCard";
-// import freshBurger from "../../assets/fresh-burger.png";
+import george from "../../assets/GeorgeCarlin.jpg";
 // import hipsster from "../../assets/hipsster.png";
 // import fitLift from "../../assets/fitlift.png";
 
@@ -11,13 +11,13 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="tingly.codes"
+          src={tinglyAvatar}
+          link="https://github.com/TinglyTingly/tingly.codes"
           h3="tingly.codes"
           p="This very site"
         />
         <ProjectCard
-          src={viberr}
+          src={george}
           link=""
           h3="Product Landing Page"
           p="Coming Soon"

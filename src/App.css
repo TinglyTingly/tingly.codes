@@ -12,6 +12,7 @@
   --form-text-color: white;
   --footer-test-color: white;
   --ai-text-shadow: white;
+  --project-card-border: white;
 }
 
 [data-theme="light"] {
@@ -23,6 +24,7 @@
   --form-text-color: black;
   --footer-test-color: black;
   --ai-text-shadow: black;
+  --project-card-border: black;
 }
 
 body {

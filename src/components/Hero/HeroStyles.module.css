@@ -28,6 +28,29 @@
       -webkit-text-stroke: 1px var(--ai-text-shadow);
     }
   }
+
+  .heroSection {
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .description {
+      max-width: 24ch;
+    }
+    .title {
+      background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnhqa2U3ZnpjNTl0d2c0d2p4MmdqaXAwZ3ppeDhrbDd4eTF5YWh2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4FGvSp3TTYKvJRVm/giphy.webp);
+      background-size: cover;
+      color: transparent;
+      -moz-background-clip: text;
+      -webkit-background-clip: text;
+      font-size: 30px;
+      margin: 10px 0;
+      font-family: Silkscreen, serif;
+      font-weight: 700;
+      -webkit-text-stroke: 1px var(--ai-text-shadow);
+    }
+  }
   .hero {
     max-width: 200px;
     border-radius: 100000px;
@@ -71,14 +94,7 @@
 .colorMode:hover {
   cursor: pointer;
 }
-.description {
-  max-width: 24ch;
-}
-.info {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;

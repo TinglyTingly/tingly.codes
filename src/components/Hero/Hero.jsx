@@ -5,49 +5,39 @@ import moon from "../../assets/moon.svg";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import { useTheme } from "../../common/ThemeContext";
+
 function Hero() {
   const { theme, toggleTheme } = useTheme();
   const themeIcon = theme === "light" ? sun : moon;
   const githubIcon = theme === "light" ? githubLight : githubDark; // const AITextBorderColor = //  theme === "light" ? "var(--ai--text-color)" : "#fff";
   return (
     <section id="hero" className={styles.container}>
-      {" "}
       <div className={styles.colorModeContainer}>
-        {" "}
         <img
           src={heroImg}
           className={styles.hero}
           alt="AI Generated Avatar of Tingly"
-        />{" "}
+        />
         <img
           className={styles.colorMode}
           src={themeIcon}
           alt="Color mode icon"
           onClick={toggleTheme}
-        />{" "}
-        <div className={styles.arrowContainer}>
-          {" "}
-          <h3 className={styles.textAI}>Avatar made with AI</h3>{" "}
-        </div>{" "}
-      </div>{" "}
+        />
+      </div>
       <div className={styles.heroSection}>
-        {" "}
         <div className={styles.info}>
-          {" "}
-          <h1 className="title">Tingly</h1> <h2>Software Engineer</h2>{" "}
+          <h1 className={styles.title}>Tingly</h1> <h2>Software Engineer</h2>
           <span>
-            {" "}
             <a href="https://github.com/TinglyTingly" target="_blank">
-              {" "}
-              <img src={githubIcon} alt="GitHub Icon" />{" "}
-            </a>{" "}
-          </span>{" "}
-          <p className="description">
-            {" "}
-            Melding design with AI to make beautiful things.{" "}
-          </p>{" "}
-        </div>{" "}
-      </div>{" "}
+              <img src={githubIcon} alt="GitHub Icon" />
+            </a>
+          </span>
+          <p className={styles.description}>
+            Melding design with AI to make beautiful things.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }

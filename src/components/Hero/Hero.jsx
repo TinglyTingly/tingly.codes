@@ -42,18 +42,8 @@ function Hero() {
           </p>
           <a href={CV}>
             <button className={styles.button} role="button">
-              Button 53
+              Resume
             </button>
-          </a>
-          <a href="#" className="button nav-link">
-            <div className="bottom"></div>
-            <div className="top">
-              <div className="label">Resume</div>
-              <div className="button-border button-border-left"></div>
-              <div className="button-border button-border-top"></div>
-              <div className="button-border button-border-right"></div>
-              <div className="button-border button-border-bottom"></div>
-            </div>
           </a>
         </div>
       </div>

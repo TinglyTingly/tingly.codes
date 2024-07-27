@@ -4,27 +4,27 @@
 
 :root {
   /* dark  */
-  --background-color: black;
-  --btn--color: white;
-  --btn--text: black;
-  --project-card-bg: white;
-  --text-color: white;
-  --form-text-color: white;
-  --footer-test-color: white;
-  --ai-text-shadow: white;
-  --project-card-border: white;
+  --background-color: #052603; // dark
+  --btn--color: #ffd8c2; // light
+  --btn--text: #052603;
+  --project-card-bg: #ffd8c2;
+  --text-color: #ffd8c2;
+  --form-text-color: #ffd8c2;
+  --footer-test-color: #ffd8c2;
+  --ai-text-shadow: #ffd8c2;
+  --project-card-border: #ffd8c2;
 }
 
 [data-theme="light"] {
-  --background-color: white;
-  --btn--color: black;
-  --btn--text: white;
-  --project-card-bg: black;
-  --text-color: black;
-  --form-text-color: black;
-  --footer-test-color: black;
-  --ai-text-shadow: black;
-  --project-card-border: black;
+  --background-color: #ffd8c2;
+  --btn--color: #052603;
+  --btn--text: #ffd8c2;
+  --project-card-bg: #052603;
+  --text-color: #052603;
+  --form-text-color: #052603;
+  --footer-test-color: #052603;
+  --ai-text-shadow: #052603;
+  --project-card-border: #052603;
 }
 
 body {
